@@ -23,3 +23,7 @@ Let's see what will happened.
 Here I add this file to the cash.
 
 I add some numbers here, but did not 'add';after that I use the checkout, The numbers are gone.
+
+Different between checkout and reset HEAD:
+the 'reset HEAD' will move the file from cash area to the local area, it will keep your modification on the local version.
+the 'checkout' will undo your modify.
