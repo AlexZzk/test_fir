@@ -19,3 +19,7 @@ the checkout function will delete those changes.
 
 
 Let's see what will happened.
+
+Here I add this file to the cash.
+
+I add some numbers here, but did not 'add';after that I use the checkout, The numbers are gone.
