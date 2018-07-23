@@ -27,3 +27,6 @@ I add some numbers here, but did not 'add';after that I use the checkout, The nu
 Different between checkout and reset HEAD:
 the 'reset HEAD' will move the file from cash area to the local area, it will keep your modification on the local version.
 the 'checkout' will undo your modify.
+
+<!-- new edit begin 0723-->
+I add those things in a new branch.
