@@ -30,3 +30,17 @@ the 'checkout' will undo your modify.
 
 <!-- new edit begin 0723-->
 I add those things in a new branch.
+
+
+Git command:
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
