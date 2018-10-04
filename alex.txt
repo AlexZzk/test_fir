@@ -1,0 +1,14 @@
+This is a note file only add on the branch ALEX.
+
+The usage of stash:
+
+git stash : 用于保存当前分支下，个人未做完的工作，但是需要先使用git add 命令将需要保存的、未完成的工作，提交到本地git库
+
+git stash pop : 用于恢复当前本地存储的工作，使用pop命令会恢复当前存储的第一条未完成的工作，同时删除存储的记忆；
+
+git stash apply : 同样是用作恢复存储的工作文件，但是使用此命令，存储的记忆不会被删除，需要手动执行删除命令。
+
+git stash drop : 删除本地存储的stash区的存储记忆。
+
+
+
