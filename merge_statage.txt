@@ -2,6 +2,6 @@
 
 Fast forward模式：这种模式在删除分支后，会丢掉分支信息。
 
-如果强制禁止使用Fast forward，git会在合并分支的时候，生成一个commit，
+如果强制禁止使用Fast forward，git会在合并分支的时候，生成一个commit，用法：--no-ff
 
 This file I'll use it for test marge stratage.
