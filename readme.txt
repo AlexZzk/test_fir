@@ -46,3 +46,9 @@ Git command:
 删除分支：git branch -d <name>
 
 Creating a new branch is quick and simple;
+
+It's a horobal festival. I'm so tired.
+
+And all the things change my mind.
+
+I love you, but i'm tired to accept that. We broke up.
