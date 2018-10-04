@@ -11,3 +11,5 @@
 删除分支：git branch -d <name>
 
 查看分支合并图：git log --graph
+
+git merge --no-ff -m "notes" branch_name     -------------- This way will show all changes in every branch. It's better than the "FAST FORWARD:wq"
