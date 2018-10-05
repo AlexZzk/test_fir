@@ -20,3 +20,5 @@ git stash drop : 删除本地存储的stash区的存储记忆。
 在使用git push的时候，需要指定相应的分支：git push origin <branch-name>
 
 同样，如果在git pull 命令之后，提示未找到对应分支，需要使用命令，建立本地库和远程库分支的对应关系：git branch --set-upstream-to <branch-name> origin/<branch-name>
+
+修改github开源库：首先使用clone命令，将开源项目克隆在本地，进行修改，然后再进行提交。
