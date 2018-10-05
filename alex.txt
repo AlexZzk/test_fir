@@ -14,3 +14,9 @@ git stash drop : 删除本地存储的stash区的存储记忆。
 关于feature（新需求分支）、bug（bug分支）学习：
 对于需求、bug，在进行开发的过程中，都应该保持保持现有功能不变。
 所以，对于bug、需求进行开发或修复的过程中，应该重新申请分支，进行对应的开发
+
+在多个人对同一个分支在进行开发的过程中，
+使用git pull命令，首先进行合并，解决冲突之后，使用git push命令
+在使用git push的时候，需要指定相应的分支：git push origin <branch-name>
+
+同样，如果在git pull 命令之后，提示未找到对应分支，需要使用命令，建立本地库和远程库分支的对应关系：git branch --set-upstream-to <branch-name> origin/<branch-name>
