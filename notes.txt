@@ -13,3 +13,6 @@
 查看分支合并图：git log --graph
 
 git merge --no-ff -m "notes" branch_name     -------------- This way will show all changes in every branch. It's better than the "FAST FORWARD:wq"
+
+新建用户名及邮箱：git config --global user.name(user.email)
+其中，如果只是设置某一个仓库下的用户名，不改变其它仓库使用的用户名，则不加--global参数。
