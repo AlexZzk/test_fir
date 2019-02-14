@@ -16,3 +16,9 @@ git merge --no-ff -m "notes" branch_name     -------------- This way will show a
 
 新建用户名及邮箱：git config --global user.name(user.email)
 其中，如果只是设置某一个仓库下的用户名，不改变其它仓库使用的用户名，则不加--global参数。
+
+
+对于部分机器，在使用git时需要每次输入用户名及密码，可以使用以下命令：
+git config --global credential.helper store
+使用上述命令后，再输入一次用户名及密码，之后再进行操作时，就不需要再输入。
+原因：会在你本地生成一个文本，上边记录你的账号和密码。
