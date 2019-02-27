@@ -22,3 +22,20 @@ git merge --no-ff -m "notes" branch_name     -------------- This way will show a
 git config --global credential.helper store
 使用上述命令后，再输入一次用户名及密码，之后再进行操作时，就不需要再输入。
 原因：会在你本地生成一个文本，上边记录你的账号和密码。
+
+
+git 中合并代码的两种方式
+------------git merge-------------git rebase----------
+1、git merge:
+在进行git merge操作时，以下列分支时间线做解释：
+master：c1<----c3<-----c5;
+dev:    c1<----c2<-----c4;
+在进行两个分支合并时，合并到master的版本节点：c1<---<c2<---c3<---c4<---c5<---c6;
+2、git rebase:
+对于上述git版本节点，使用rebase操作步骤如下：
+git checkout dev;
+git rebase master;# 将dev上的c2、c5在master分支上做一次衍合处理
+# git提示出现了代码冲突，此处为之前埋下的冲突点，处理完毕后
+git add readme # 添加冲突处理后的文件
+git rebase --continue # 加上--continue参数让rebase继续处理.
+使用rebase合并之后，master上的节点将变为c1<--c3<--c5<--c2<--<c4，并且不会新增合并后的处理节点。
